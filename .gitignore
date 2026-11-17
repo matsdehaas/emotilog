@@ -1,0 +1,17 @@
+# Local / build / IDE
+.gradle/
+.idea/
+.vscode/
+.DS_Store
+build/
+*/build/
+local.properties
+google-services.json
+*.jks
+*.keystore
+*.hprof
+*.iml
+# Sensitive config
+.env
+.env.*
+**/service-account*.json

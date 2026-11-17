@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log an emotion:"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <GridLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true"
+        android:paddingBottom="12dp" />
+
+    <Button
+        android:id="@+id/open_log_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Log + Summary"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
